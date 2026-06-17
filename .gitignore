@@ -1,0 +1,10 @@
+# Build artifacts (binary is CI-built; never committed).
+/annotations
+
+# Base runtime data dirs.
+/base_/
+/data/
+/vaults/
+*.db
+*.db-shm
+*.db-wal
