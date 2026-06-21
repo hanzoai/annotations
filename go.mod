@@ -7,7 +7,7 @@ require (
 	github.com/hanzoai/dbx v1.16.0
 	github.com/luxfi/log v1.4.3
 	github.com/luxfi/zap v0.8.1
-	github.com/zap-proto/go v1.1.0
+	github.com/zap-proto/go v1.3.0
 )
 
 require (
@@ -161,7 +161,4 @@ require (
 // Local working copies — GH SSH is flaky this session; these resolve the
 // exact code the service is built and tested against. Drop the replaces
 // once the modules are reachable via the proxy with their full dep graphs.
-replace (
-	github.com/hanzoai/base => ../base
-	github.com/zap-proto/go => ../../zap-proto/go
-)
+replace github.com/hanzoai/base => ../base
