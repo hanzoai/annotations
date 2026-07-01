@@ -157,8 +157,3 @@ require (
 	modernc.org/memory v1.11.0 // indirect
 	modernc.org/sqlite v1.50.0 // indirect
 )
-
-// Local working copies — GH SSH is flaky this session; these resolve the
-// exact code the service is built and tested against. Drop the replaces
-// once the modules are reachable via the proxy with their full dep graphs.
-replace github.com/hanzoai/base => ../base
