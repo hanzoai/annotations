@@ -13,7 +13,7 @@
 # pipeline drops the replaces (the modules resolve via GOPROXY) so this build
 # context needs only this repo. If you must build with the replaces, use a
 # monorepo build context that includes the sibling modules.
-FROM golang:1.26.4-alpine AS builder
+FROM golang:1.26.5-alpine AS builder
 RUN apk add --no-cache git ca-certificates tzdata
 WORKDIR /build
 COPY go.mod go.sum ./
