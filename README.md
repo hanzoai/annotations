@@ -119,3 +119,5 @@ This repo does **not** edit console.
 | `main.go` | Binary: `base.New()` + vault + ZAP router (NodeID `annotations`, :9996). |
 
 Container registry: `ghcr.io/hanzoai/annotations` (CI-built, multi-arch).
+
+Licensed under **MIT OR Apache-2.0**, per [HIP-0137](https://github.com/hanzoai/hips/blob/main/HIPs/hip-0137-one-license.md).
